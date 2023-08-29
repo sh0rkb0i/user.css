@@ -1,0 +1,67 @@
+@-moz-document domain("snippr.win") {
+    * {
+        font-family: "MS UI Gothic", "MS Pgothic", "MS Gothic", arial!important;
+    }
+    body {
+        background-color: blue;
+    }
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    b,
+    strong,
+    em,
+    i,
+    div {
+        color: blue;
+    }
+    .Hint {
+        color: blue!important;
+    }
+    /* current user buddy icon is blue*/
+    .BuddyIconH {
+        border-width: 5px;
+        border-color: blue;
+    }
+    /* etc user buddy icon is lskblue*/
+    .xBuddyIconH {
+        border-width: 5px;
+        border-color: lightskyblue;
+    }
+    a {
+        color: blue!important;
+    }
+    a:hover {
+        background-color: blue;
+        color: black!important;
+    }
+    .topnavi {
+        color: black;
+    }
+    textarea,
+    input {
+        background-color: black!important;
+        color: blue!important;
+        border: solid!important;
+        font-family: "MS UI Gothic", "MS Pgothic", "MS Gothic", arial!important;
+    }
+    #Hint {
+        color: white!important;
+    }
+    #Hint p,
+    #Hint h1,
+    #Hint h2,
+    #Hint h3,
+    #Hint h4,
+    #Hint h5,
+    #Hint h6,
+    #Hint h7 {
+        color: white!important;
+    }
+    #Main {
+        background-color: black;
+    }
+    }
